@@ -1,6 +1,6 @@
-let num1 = 4;
-let num2 = 3;
-let Operador =  prompt ("Ingrese el operador: ").toLocaleLowerCase();
+let num1 = Number(prompt("Ingresa el primer número:"));
+let num2 = Number(prompt("Ingresa el segundo número:"));
+let Operador =  prompt ("Ingresa el operador (suma/resta/multiplicar/dividir): ").toLocaleLowerCase();
 
 
 if (Operador === "suma") {
